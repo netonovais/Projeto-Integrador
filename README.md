@@ -1,5 +1,3 @@
-# Projeto-Integrador
-
 # Plataforma Digital do Grupo de Pesquisa R.E.G.I.I.M.E.N.T.O.
 
 ## Sobre o projeto
