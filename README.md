@@ -2,7 +2,7 @@
 
 **Status do Projeto:** 🛠️ Em Desenvolvimento (Protótipo Acadêmico)  
 **Instituição Parceira:** Grupo de Pesquisa R.E.G.I.I.M.E.N.T.O. (UnB / INTERPARES TRUST AI)  
-**Disciplina:** Projeto Integrador I - ADS (CEUB)
+**Disciplina:** Projeto Integrador I - 
 
 ---
 
