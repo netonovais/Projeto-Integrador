@@ -153,9 +153,12 @@ O projeto será conduzido com base em conceitos de **Scrum** e **Design Thinking
 ---
 
 ## ⚖️ Aspectos Legais e Autorização
-Este projeto é realizado mediante a autorização do grupo de pesquisa **R.E.G.I.I.M.E.N.T.O. (UnB)**. 
+Este projeto é realizado mediante a autorização do grupo de pesquisa R.E.G.I.I.M.E.N.T.O. (UnB).
 
-- **Termo de Anuência:** O documento formal de autorização e parceria pode ser consultado em [docs/anuencia.md](./docs/anuencia.md) ou no arquivo PDF assinado disponível na pasta de documentação.
-- **Conformidade:** O projeto segue as diretrizes acadêmicas do CEUB e as normas de ética em pesquisa, garantindo a anonimização de dados sensíveis conforme a LGPD.
+Termo de Anuência: O documento formal de autorização e parceria pode ser consultado em docs/anuencia.md ou no arquivo PDF assinado disponível na pasta de documentação.
+
+Documento de Visão e Plano de Trabalho: O detalhamento técnico, escopo do protótipo e cronograma de execução estão disponíveis em docs/visao-e-plano.md.
+
+Conformidade: O projeto segue as diretrizes acadêmicas do CEUB e as normas de ética em pesquisa, garantindo a anonimização de dados sensíveis conforme a LGPD.
 
 ----
