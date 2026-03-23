@@ -1,4 +1,3 @@
-
 # MVP - Produto Mínimo Viável
 
 ## Objetivo do MVP
