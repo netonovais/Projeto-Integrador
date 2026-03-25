@@ -1,90 +1,24 @@
-# Product Backlog
+# 🛠️ Backlog do Projeto (Product Backlog)
 
-## Épico 1 - Institucional
+## Epic 01: Arquitetura e Identidade Visual
+* **User Story [US01]:** Como integrante do grupo, quero uma identidade visual moderna para que o projeto transmita credibilidade científica.
+    * [ ] Definir paleta de cores (Sugerido: Azul Marinho UnB, Cinza Corporativo e Branco).
+    * [ ] Escolha da tipografia (Sans-serif para legibilidade).
+    * [ ] Criação do Style Guide no Tailwind CSS.
 
-### US01
-Como visitante, quero visualizar a apresentação do grupo para entender sua proposta e atuação.
+## Epic 02: O Portal Acadêmico
+* **User Story [US02]:** Como pesquisador externo, quero acessar as publicações do grupo para citá-las em meus trabalhos.
+    * [ ] Estruturar o componente de "Card de Publicação".
+    * [ ] Implementar lógica de busca em JS puro para filtrar o repositório.
+    * [ ] Criar botões de download/link externo para cada item.
 
-### US02
-Como visitante, quero conhecer a história do grupo para compreender sua trajetória acadêmica.
+## Epic 03: Data Visualization (Dashboards)
+* **User Story [US03]:** Como gestor do grupo, quero ver gráficos da produção acadêmica para monitorar o crescimento das pesquisas.
+    * [ ] Estruturar o `data.json` com indicadores de IA e Ciência Arquivística.
+    * [ ] Configurar o **Chart.js** para gerar gráficos de barras e rosca.
+    * [ ] Implementar tooltips informativos nos gráficos.
 
-### US03
-Como visitante, quero visualizar missão, objetivos e áreas de atuação do grupo para entender sua relevância.
-
----
-
-## Épico 2 - Linhas de Pesquisa
-
-### US04
-Como visitante, quero visualizar as linhas de pesquisa para conhecer os temas estudados pelo grupo.
-
-### US05
-Como visitante, quero acessar descrições das linhas de pesquisa para entender cada área de atuação.
-
----
-
-## Épico 3 - Integrantes
-
-### US06
-Como visitante, quero visualizar os membros do grupo para conhecer pesquisadores, docentes e discentes.
-
-### US07
-Como visitante, quero ver informações resumidas sobre os integrantes para identificar especialidades e vínculos.
-
----
-
-## Épico 4 - Publicações
-
-### US08
-Como visitante, quero acessar publicações do grupo para consultar a produção científica.
-
-### US09
-Como visitante, quero visualizar diferentes tipos de produção acadêmica para encontrar conteúdos de interesse.
-
----
-
-## Épico 5 - Eventos
-
-### US10
-Como visitante, quero visualizar eventos do grupo para acompanhar workshops, colóquios e seminários.
-
-### US11
-Como visitante, quero acessar detalhes dos eventos para saber data, tema e contexto.
-
----
-
-## Épico 6 - Contato
-
-### US12
-Como interessado, quero entrar em contato com o grupo para demonstrar interesse em participar ou obter informações.
-
----
-
-## Épico 7 - Dashboards
-
-### US13
-Como visitante, quero visualizar dashboards com dados do grupo para compreender indicadores e informações analíticas.
-
----
-
-## Sprint 1
-
-### Meta da Sprint
-Estruturar a base documental e a primeira versão visual da plataforma institucional.
-
-### Itens selecionados
-- US01
-- US04
-- US06
-- US08
-- US10
-- US12
-- US13
-
-### Tarefas da Sprint 1
-- Criar documentação inicial do projeto
-- Definir visão do produto e MVP
-- Estruturar backlog inicial
-- Criar página inicial da plataforma
-- Criar seções principais do site
-- Organizar navegação básica
+## Epic 04: Comunidade e Engajamento
+* **User Story [US04]:** Como estudante interessado, quero deixar meu contato para saber de futuras seleções de voluntários.
+    * [ ] Desenvolver seção "Faça Parte".
+    * [ ] Criar validação de campos do formulário com JavaScript.
