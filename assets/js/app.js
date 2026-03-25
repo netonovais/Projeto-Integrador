@@ -1,15 +1,59 @@
-// Configurações do Supabase ((O Silas vai preencher aqui))
-const SUPABASE_URL = 'SUA_URL_AQUI';
-const SUPABASE_KEY = 'SUA_KEY_AQUI';
-const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+document.addEventListener("DOMContentLoaded", () => {
+  const ctxCategorias = document.getElementById("graficoCategorias");
+  const ctxEventos = document.getElementById("graficoEventos");
 
-// Função para listar os projetos (Exemplo inicial)
-async function buscarProjetos() {
-    console.log("Iniciando busca de projetos...");
-    // A lógica de busca virá aqui
-}
+  if (ctxCategorias) {
+    new Chart(ctxCategorias, {
+      type: "bar",
+      data: {
+        labels: ["Artigos", "Dissertações", "Relatórios", "Projetos"],
+        datasets: [{
+          label: "Quantidade",
+          data: [12, 5, 7, 4],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            display: false
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  }
 
-// Inicialização
-document.addEventListener('DOMContentLoaded', () => {
-    buscarProjetos();
+  if (ctxEventos) {
+    new Chart(ctxEventos, {
+      type: "line",
+      data: {
+        labels: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun"],
+        datasets: [{
+          label: "Atividades",
+          data: [2, 4, 3, 6, 5, 8],
+          tension: 0.3,
+          fill: false
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            display: true
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  }
 });
