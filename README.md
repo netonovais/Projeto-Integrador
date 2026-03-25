@@ -4,7 +4,7 @@
 **Instituição Parceira:** Grupo de Pesquisa R.E.G.I.I.M.E.N.T.O. (UnB / INTERPARES TRUST AI)  
 **Disciplina:** Projeto Integrador I - ADS (CEUB)
 
----
+----
 
 ## 📌 Sobre o Projeto
 Este projeto consiste no desenvolvimento de um **protótipo de plataforma digital** para o grupo de pesquisa **R.E.G.I.I.M.E.N.T.O.**, vinculado à **Universidade de Brasília (UnB)**.
