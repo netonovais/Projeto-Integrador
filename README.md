@@ -28,7 +28,7 @@ Isso pode causar:
 
 **Problema central:** ausência de uma plataforma digital centralizada, clara, moderna e responsiva para divulgação e acesso às informações do grupo.
 
----
+----
 
 ## 🎯 Objetivo Geral
 Desenvolver uma **plataforma digital responsiva** para o grupo **R.E.G.I.I.M.E.N.T.O.**, com foco em:
