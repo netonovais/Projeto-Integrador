@@ -1,0 +1,23 @@
+[
+  {
+    "tipo": "Artigo",
+    "titulo": "Arquitetura da Informação em Ambientes Acadêmicos",
+    "descricao": "Estudo sobre organização, visibilidade e navegação de conteúdos científicos em plataformas digitais.",
+    "ano": "2025",
+    "area": "Arquitetura da Informação"
+  },
+  {
+    "tipo": "Dissertação",
+    "titulo": "Indicadores Analíticos na Visualização da Produção Científica",
+    "descricao": "Análise de métricas e formas de representar dados acadêmicos de modo acessível e estratégico.",
+    "ano": "2025",
+    "area": "Visualização de Dados"
+  },
+  {
+    "tipo": "Relatório",
+    "titulo": "Mapeamento Inicial da Produção Científica do Grupo",
+    "descricao": "Levantamento preliminar de pesquisas, projetos e contribuições acadêmicas vinculadas ao grupo.",
+    "ano": "2026",
+    "area": "Pesquisa Institucional"
+  }
+]
