@@ -249,6 +249,38 @@
           </p>
         </div>
 
+        <div class="filters-bar" data-aos="fade-up" data-aos-delay="60">
+          <div class="filter-group">
+            <label for="filtroTipo">Tipo</label>
+            <select id="filtroTipo">
+              <option value="todos">Todos</option>
+              <option value="Artigo">Artigo</option>
+              <option value="Dissertação">Dissertação</option>
+              <option value="Relatório">Relatório</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filtroAno">Ano</label>
+            <select id="filtroAno">
+              <option value="todos">Todos</option>
+              <option value="2026">2026</option>
+              <option value="2025">2025</option>
+            </select>
+          </div>
+
+          <div class="filter-group search-group">
+            <label for="buscaPublicacao">Buscar</label>
+            <input
+              type="text"
+              id="buscaPublicacao"
+              placeholder="Digite título, área ou tipo..."
+            />
+          </div>
+        </div>
+
+        <div id="publicacoesInfo" class="results-info"></div>
+
         <div id="publicacoesGrid" class="cards three" data-aos="fade-up" data-aos-delay="100"></div>
       </div>
     </section>
