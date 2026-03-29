@@ -1,25 +1,26 @@
-# 🧪 Plano de Testes e Qualidade
+# Testes do Protótipo REGIIMENTOWEB
 
-## 1. Casos de Teste Funcionais (CT)
+## Objetivo
+Validar se o protótipo atende às principais funcionalidades previstas no MVP.
 
-| ID | Caso de Teste | Ação | Resultado Esperado |
-|:---|:---|:---|:---|
-| **CT-01** | Navegação por Menu | Clicar em "Dashboards" no cabeçalho. | O scroll deve levar à seção de gráficos ou carregar a página correta. |
-| **CT-02** | Filtro de Publicações | Digitar "Deep Learning" na busca. | A lista deve exibir apenas artigos que contenham o termo no título ou resumo. |
-| **CT-03** | Responsividade | Redimensionar para 375px (iPhone). | O menu deve se transformar em "hambúrguer" e as colunas em linha única. |
-| **CT-04** | Integridade de Links | Clicar no link do Currículo Lattes. | Abrir o perfil do pesquisador em uma nova aba (`_blank`). |
+## Estratégia de Teste
+Foram realizados testes manuais no front-end, verificando navegação, renderização dinâmica, filtros e responsividade.
 
-## 2. Testes de Integração de Dados
-* **Cenário:** Modificação do arquivo `data.json`.
-* **Teste:** Verificar se, ao adicionar um novo evento no JSON, a interface renderiza o novo card automaticamente sem quebrar o layout.
+## Casos de Teste
 
-## 3. Ferramentas de Teste Sugeridas
-* **Lighthouse (Chrome):** Para auditoria de Performance, Acessibilidade e SEO.
-* **W3C Validator:** Para garantir que o HTML5 não possui erros de sintaxe.
-* **Checklist LGPD:** Revisão manual para garantir que apenas dados públicos (Lattes/Nomes) estão visíveis.
+| ID | Funcionalidade | Procedimento | Resultado Esperado | Status |
+|----|----------------|--------------|--------------------|--------|
+| T01 | Navegação principal | Clicar nos links do menu | Navegar corretamente entre as seções | OK |
+| T02 | Equipe dinâmica | Abrir seção Equipe | Exibir cards carregados via JSON | OK |
+| T03 | Publicações dinâmicas | Abrir seção Publicações | Exibir cards carregados via JSON | OK |
+| T04 | Filtro por tipo | Selecionar "Artigo" | Mostrar apenas publicações do tipo artigo | OK |
+| T05 | Filtro por ano | Selecionar "2025" | Mostrar apenas publicações de 2025 | OK |
+| T06 | Busca textual | Digitar termo na busca | Filtrar publicações compatíveis | OK |
+| T07 | Eventos dinâmicos | Abrir seção Eventos | Exibir eventos carregados via JSON | OK |
+| T08 | Dashboard | Abrir seção Dashboards | Exibir gráficos de barra, linha e rosca | OK |
+| T09 | Hover nos gráficos | Passar o mouse sobre os gráficos | Mostrar valores/interações do Chart.js | OK |
+| T10 | Responsividade | Abrir em tela menor/mobile | Layout adaptar sem quebrar | OK |
+| T11 | Área de contato | Clicar em contato | Exibir ação/link de contato | OK |
 
-## 4. Matriz de Aceitação
-O protótipo será considerado "Pronto" (Done) quando:
-1. Todos os RF-01 a RF-05 estiverem funcionais.
-2. O site atingir nota > 85 no Lighthouse (Performance).
-3. Não houver erros de console (F12) no carregamento inicial.
+## Resultado Geral
+O protótipo apresentou funcionamento satisfatório nas funcionalidades previstas para o MVP.
