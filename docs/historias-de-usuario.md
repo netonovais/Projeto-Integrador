@@ -2,11 +2,10 @@
 
 **Projeto:** Plataforma de Centralização de Produção Científica e Dados  
 **Data:** 25 de Março de 2026  
-**Status:** `Em Definição`
 
 ---
 
-## 🎯 Objetivo do Projeto
+##Objetivo do Projeto
 Centralizar informações institucionais, pesquisas, publicações, eventos e dados analíticos em um único ambiente digital. O foco é apoiar a divulgação da produção científica em áreas como:
 * Ciência Arquivística Computacional (**CAS**)
 * Arquitetura da Informação Multimodal (**MIA**)
@@ -16,7 +15,7 @@ Centralizar informações institucionais, pesquisas, publicações, eventos e da
 
 ---
 
-## 🏛️ Épico 1: Portal Institucional e Linhas de Pesquisa
+##Épico 1: Portal Institucional e Linhas de Pesquisa
 > Focado em apresentar a identidade, histórico e áreas de atuação do grupo R.E.G.I.I.M.E.N.T.O.
 
 ### US01 - Página Inicial (Visão Geral)
@@ -43,7 +42,7 @@ Centralizar informações institucionais, pesquisas, publicações, eventos e da
 
 ---
 
-## 📚 Épico 2: Repositório Acadêmico e Eventos
+##Épico 2: Repositório Acadêmico e Eventos
 > Focado na organização e exibição do conteúdo gerado pelo grupo de forma dinâmica via JSON.
 
 ### US04 - Repositório Dinâmico de Publicações
@@ -63,7 +62,7 @@ Centralizar informações institucionais, pesquisas, publicações, eventos e da
 
 ---
 
-## 📊 Épico 3: Dashboards de Dados
+##Épico 3: Dashboards de Dados
 > Focado no uso do Chart.js para dar vida aos dados complexos da pesquisa.
 
 ### US06 - Visualização de Indicadores Analíticos
@@ -77,7 +76,7 @@ Centralizar informações institucionais, pesquisas, publicações, eventos e da
 
 ---
 
-## 🤝 Épico 4: Engajamento e Área para Interessados
+##Épico 4: Engajamento e Área para Interessados
 > Focado em conectar o público com o grupo de pesquisa.
 
 ### US07 - Área de Contato para Interessados
@@ -97,7 +96,7 @@ Centralizar informações institucionais, pesquisas, publicações, eventos e da
 
 ---
 
-## 🛠️ Stack Tecnológica Sugerida
+##Stack Tecnológica Sugerida
 
 | Tecnologia | Finalidade |
 | :--- | :--- |
