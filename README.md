@@ -201,18 +201,18 @@ Projeto-Integrador/
 │   │   └── equipe.json
 │   └── img/
 ├── docs/
-│   ├── anuencia.md
-│   ├── arquitetura.md
-│   ├── backlog.md
-│   ├── canvas.md
-│   ├── jornadas.md
-│   ├── mvp.md
-│   ├── personas.md
-│   ├── portfolio.md
-│   ├── problema-objetivos.md
-│   ├── requisitos.md
-│   ├── testes.md
-│   ├── visao-e-plano.md
-│   ├── visao-produto.md
-│   └── ata-validacao.md
+│   ├── 02_Arquitetura.pdf
+│   ├── 03_Backlog.pdf
+│   ├── 04_Canvas.pdf
+│   ├── 05_Jornadas.pdf
+│   ├── 06_MVP.pdf
+│   ├── 07_Personas.pdf
+│   ├── 08_Portfólio.pdf
+│   ├── 09_Requisitos.pdf
+│   ├── 10_Visão e Plano.pdf
+│   ├── 11_Visão do Produto.pdf
+│   ├── Ata-De-Validacao.md
+│   ├── AzureDevOps.pdf
+│   ├── Historias-De-Usuario.md
+│   └── Testes.md
 └── README.md
