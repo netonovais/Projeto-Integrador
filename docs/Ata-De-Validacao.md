@@ -2,8 +2,7 @@
 
 **Projeto:** Plataforma Digital & Dashboards R.E.G.I.I.M.E.N.T.O.  
 **Data:** 27 de Março de 2026  
-**Local:** Reunião Remota / Ambiente Acadêmico  
-**Status:** `Aprovado com Ressalvas de Refinamento`
+**Local:** Reunião Remota
 
 ---
 
