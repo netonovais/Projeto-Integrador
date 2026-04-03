@@ -1,4 +1,4 @@
-# 📝 Ata de Validação do Protótipo: REGIIMENTOWEB
+#Ata de Validação do Protótipo: REGIIMENTOWEB
 
 **Projeto:** Plataforma Digital & Dashboards R.E.G.I.I.M.E.N.T.O.  
 **Data:** 27 de Março de 2026  
@@ -7,7 +7,7 @@
 
 ---
 
-## 👥 1. Participantes
+##1. Participantes
 
 | Nome | Papel / Responsabilidade | Organização |
 | :--- | :--- | :--- |
@@ -20,7 +20,7 @@
 
 ---
 
-## 🚀 2. O Que Foi Apresentado
+##2. O Que Foi Apresentado
 
 A equipe demonstrou o **MVP (Produto Mínimo Viável)** focado na resolução da dispersão de informações científicas. Os pontos chave foram:
 
@@ -32,21 +32,21 @@ A equipe demonstrou o **MVP (Produto Mínimo Viável)** focado na resolução da
 
 ---
 
-## 💬 3. Feedback do Stakeholder
+##3. Feedback do Stakeholder
 
-### ✅ Pontos Fortes
+###Pontos Fortes
 * **Centralização:** A proposta ataca diretamente o "Problema Central" identificado: a fragmentação dos dados em diferentes plataformas.
 * **Tecnologia:** A escolha da *stack* (`Tailwind` + `Vanilla JS`) foi elogiada pela leveza e facilidade de manutenção por futuros pesquisadores.
 * **Visualização:** Os gráficos interativos foram considerados o diferencial para a prestação de contas do grupo à sociedade.
 
-### ⚠️ Oportunidades de Melhoria
+###Oportunidades de Melhoria
 * **Navegação:** Necessidade de tornar o fluxo entre "Linhas de Pesquisa" e "Publicações Relacionadas" mais intuitivo.
 * **Dados:** Sugestão de incluir filtros por ano e autor no repositório dinâmico.
 * **Identidade:** Refinar a paleta de cores para alinhar-se estritamente à sobriedade acadêmica exigida pelo INTERPARES TRUST AI.
 
 ---
 
-## 🛠️ 4. Ajustes Identificados & Plano de Ação
+##4. Ajustes Identificados & Plano de Ação
 
 Com base no feedback, o **Backlog Inicial** foi atualizado com as seguintes prioridades:
 
@@ -57,7 +57,7 @@ Com base no feedback, o **Backlog Inicial** foi atualizado com as seguintes prio
 
 ---
 
-## 📅 5. Próximos Passos (Roadmap)
+##5. Próximos Passos (Roadmap)
 
 1.  **Sprint de Refinamento:** Ajustes visuais baseados na ata de hoje.
 2.  **Preparação de Deploy:** Configuração final na `Vercel` ou `GitHub Pages`.
@@ -65,7 +65,7 @@ Com base no feedback, o **Backlog Inicial** foi atualizado com as seguintes prio
 
 ---
 
-## 📝 6. Conclusão
+##6. Conclusão
 
 A validação confirma que o projeto **REGIIMENTOWEB** está alinhado com as necessidades do grupo de pesquisa. O protótipo demonstrou viabilidade técnica e funcional, sendo autorizado o prosseguimento para a fase final de polimento e documentação.
 
