@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projetos | Portal Acadêmico de Projetos</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div class="govbar">
+    <div class="container govbar-content">
+      <span>Portal institucional</span>
+      <div class="govbar-links">
+        <a href="contato.html">Acesso à informação</a>
+        <a href="contato.html">Ouvidoria</a>
+        <a href="contato.html">Transparência</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="../index.html" class="brand">
+        <div class="brand-mark">PA</div>
+        <div>
+          <strong>Portal Acadêmico de Projetos</strong>
+          <span id="userGreeting">Bem-vindo ao portal!</span>
+        </div>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="../index.html">Início</a>
+        <a href="home.html" class="active">Projetos</a>
+        <a href="publicar.html">Publicar</a>
+        <a href="contato.html">Contato</a>
+        <a href="#" class="btn btn-outline btn-nav" data-logout>Sair</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <span class="section-tag" style="background: rgba(255,255,255,.12); color: #fff; border-color: rgba(255,255,255,.15);">Catálogo acadêmico</span>
+      <h1>Projetos e iniciativas</h1>
+      <p>
+        Consulte propostas acadêmicas, navegue por área de atuação e visualize resumos dos projetos cadastrados no portal.
+      </p>
+    </div>
+  </section>
+
+  <main class="page-content">
+    <div class="container">
+      <div class="toolbar">
+        <input class="input" type="text" id="searchInput" placeholder="Pesquisar por título, autor, área ou palavra-chave" />
+
+        <select class="select" id="filterArea">
+          <option value="">Todas as áreas</option>
+          <option value="Tecnologia">Tecnologia</option>
+          <option value="Pesquisa">Pesquisa</option>
+          <option value="Extensão">Extensão</option>
+          <option value="Educação">Educação</option>
+          <option value="Saúde">Saúde</option>
+          <option value="Inovação">Inovação</option>
+        </select>
+
+        <button class="btn btn-secondary" id="clearFilters">Limpar</button>
+      </div>
+
+      <div class="project-grid" id="projectList"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Portal Acadêmico de Projetos</h3>
+        <p>Ambiente demonstrativo voltado à visualização e divulgação de projetos acadêmicos.</p>
+      </div>
+
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="home.html">Projetos</a></li>
+          <li><a href="publicar.html">Publicar</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="contato.html">Fale com a equipe</a></li>
+          <li><a href="#" data-logout>Encerrar sessão</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Campus Universitário • Brasília-DF • Projeto acadêmico demonstrativo</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
