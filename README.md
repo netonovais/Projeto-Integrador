@@ -145,7 +145,6 @@ Para este MVP, foram priorizadas ferramentas que equilibram simplicidade, desemp
 | Integrante | Função | Atribuições |
 |---|---|---|
 | José Neto | Arquiteto de Software | Estrutura técnica, escalabilidade e integração |
-| Arthur Silas | Product Owner (PO) | Visão do produto e interface com o cliente |
 | Lucas Ferreira | AD / DBA | Modelagem de dados e estruturação das estatísticas |
 | Arthur Amaral | Dev Team (Front) | Desenvolvimento da interface e lógica dos gráficos |
 | Matheus Covre | Scrum Master | Gestão de sprints e metodologias ágeis |
