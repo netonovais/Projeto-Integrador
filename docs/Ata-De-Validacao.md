@@ -10,7 +10,7 @@
 
 | Nome | Papel / Responsabilidade | Organização |
 | :--- | :--- | :--- |
-| **Arthur Silas** | Product Owner (PO) | Equipe REGIIMENTOWEB |
+| **Todos** | Product Owner (PO) | Equipe REGIIMENTOWEB |
 | **Matheus Covre** | Scrum Master | Equipe REGIIMENTOWEB |
 | **José Neto** | Arquiteto de Software | Equipe REGIIMENTOWEB |
 | **Arthur Amaral** | Dev Team (Front-end) | Equipe REGIIMENTOWEB |
