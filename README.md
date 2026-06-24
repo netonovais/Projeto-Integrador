@@ -164,25 +164,6 @@ O projeto será conduzido com base em conceitos de **Scrum** e **Design Thinking
 
 ---
 
-## 🖼️ Capturas do Sistema
-
-### Página inicial
-![Home](assets/img/readme-home.png)
-
-### Seção de equipe
-![Equipe](assets/img/readme-equipe.png)
-
-### Publicações com filtros
-![Publicações](assets/img/readme-publicacoes.png)
-
-### Dashboard
-![Dashboard](assets/img/readme-dashboard.png)
-
-### Responsividade
-![Mobile](assets/img/readme-mobile.png)
-
----
-
 ## 📁 Estrutura do Projeto
 
 ```text
