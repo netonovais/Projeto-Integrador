@@ -140,7 +140,7 @@ Para este MVP, foram priorizadas ferramentas que equilibram simplicidade, desemp
 
 ---
 
-## 👥 Equipe e Responsabilidades
+## 👥 Equipe
 
 | Integrante | Função | Atribuições |
 |---|---|---|
