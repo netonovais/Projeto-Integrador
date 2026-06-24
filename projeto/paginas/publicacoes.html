@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publicações | REGIIMENTOWEB</title>
+  <meta name="description" content="Repositório de publicações acadêmicas do grupo com busca e filtros por tipo." />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-content">
+      <span>Portal institucional</span>
+      <div class="topbar-links">
+        <a href="sobre.html">Sobre nós</a>
+        <a href="contato.html">Contato</a>
+        <a href="../index.html">Página inicial</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-content">
+      <a href="../index.html" class="brand">
+        <div class="brand-wordmark">
+          <span class="brand-pre">Projeto Integrador</span>
+          <strong class="brand-main">REGIIMENTO</strong>
+        </div>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+            <nav class="nav" id="mainNav">
+        <a href="../index.html">Início</a>
+        <a href="home.html">Projetos</a>
+        <a href="publicacoes.html" class="active">Publicações</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="dashboards.html">Dashboards</a>
+        <a href="membros.html">Membros</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="proto-banner">
+    <div class="container">
+      <span><strong>Protótipo acadêmico</strong> — projeto demonstrativo da disciplina Projeto Integrador (ADS · CEUB).</span>
+      <a href="https://github.com/netonovais/Projeto-Integrador" target="_blank" rel="noopener">Ver no GitHub</a>
+    </div>
+  </div>
+
+  <section class="page-banner">
+    <div class="container">
+      <span class="eyebrow eyebrow-light">Repositório</span>
+      <h1>Publicações acadêmicas</h1>
+      <p>Artigos, dissertações e relatórios produzidos pelo grupo. Use a busca e os filtros para encontrar produções por tipo, ano ou área.</p>
+    </div>
+  </section>
+
+  <main class="page-content">
+    <div class="container">
+      <div class="filter-bar">
+        <label class="search-field">
+          <span aria-hidden="true">🔍</span>
+          <input type="search" id="pubSearch" placeholder="Buscar por título, descrição ou área..." aria-label="Buscar publicações" />
+        </label>
+        <div class="filter-chips" id="pubChips"></div>
+      </div>
+
+      <p class="results-count" id="pubCount"></p>
+      <div class="publicacoes-grid" id="publicacoesGrid"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom-inner">
+      <p>Brasília - DF • Projeto acadêmico demonstrativo • REGIIMENTOWEB</p>
+    </div>
+  </footer>
+
+  <script src="../js/portal.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboards | REGIIMENTOWEB</title>
+  <meta name="description" content="Indicadores e dashboards interativos da produção científica do grupo R.E.G.I.I.M.E.N.T.O." />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-content">
+      <span>Portal institucional</span>
+      <div class="topbar-links">
+        <a href="sobre.html">Sobre nós</a>
+        <a href="contato.html">Contato</a>
+        <a href="../index.html">Página inicial</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-content">
+      <a href="../index.html" class="brand">
+        <div class="brand-wordmark">
+          <span class="brand-pre">Projeto Integrador</span>
+          <strong class="brand-main">REGIIMENTO</strong>
+        </div>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+            <nav class="nav" id="mainNav">
+        <a href="../index.html">Início</a>
+        <a href="home.html">Projetos</a>
+        <a href="publicacoes.html">Publicações</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="dashboards.html" class="active">Dashboards</a>
+        <a href="membros.html">Membros</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="proto-banner">
+    <div class="container">
+      <span><strong>Protótipo acadêmico</strong> — projeto demonstrativo da disciplina Projeto Integrador (ADS · CEUB).</span>
+      <a href="https://github.com/netonovais/Projeto-Integrador" target="_blank" rel="noopener">Ver no GitHub</a>
+    </div>
+  </div>
+
+  <section class="page-banner">
+    <div class="container">
+      <span class="eyebrow eyebrow-light">Indicadores</span>
+      <h1>Dashboards da produção científica</h1>
+      <p>Visualização interativa dos indicadores do grupo: produção por categoria, atividades ao longo do ano e distribuição por área temática.</p>
+    </div>
+  </section>
+
+  <main class="page-content">
+    <div class="container">
+      <div class="kpi-grid">
+        <article class="kpi-card">
+          <div class="kpi-icon">PB</div>
+          <span class="kpi-value" id="statPublicacoes">0</span>
+          <span class="kpi-label">Publicações</span>
+        </article>
+        <article class="kpi-card">
+          <div class="kpi-icon">EV</div>
+          <span class="kpi-value" id="statEventos">0</span>
+          <span class="kpi-label">Eventos</span>
+        </article>
+        <article class="kpi-card">
+          <div class="kpi-icon">PQ</div>
+          <span class="kpi-value" id="statPesquisadores">0</span>
+          <span class="kpi-label">Pesquisadores</span>
+        </article>
+        <article class="kpi-card">
+          <div class="kpi-icon">PJ</div>
+          <span class="kpi-value" id="statProjetos">0</span>
+          <span class="kpi-label">Projetos</span>
+        </article>
+      </div>
+
+      <div class="chart-grid">
+        <article class="chart-card">
+          <h3>Produção por categoria</h3>
+          <p class="chart-sub">Total de produções por tipo de trabalho</p>
+          <div class="chart-box"><canvas id="graficoCategorias"></canvas></div>
+        </article>
+        <article class="chart-card">
+          <h3>Distribuição por área temática</h3>
+          <p class="chart-sub">Participação de cada linha de pesquisa</p>
+          <div class="chart-box"><canvas id="graficoAreas"></canvas></div>
+        </article>
+        <article class="chart-card wide">
+          <h3>Atividades ao longo do ano</h3>
+          <p class="chart-sub">Evolução mensal das atividades do grupo</p>
+          <div class="chart-box"><canvas id="graficoEventos"></canvas></div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom-inner">
+      <p>Brasília - DF • Projeto acadêmico demonstrativo • REGIIMENTOWEB</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <script src="../js/portal.js"></script>
+</body>
+</html>

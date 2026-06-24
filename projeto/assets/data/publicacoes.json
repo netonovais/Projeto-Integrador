@@ -1,0 +1,86 @@
+[
+  {
+    "tipo": "Artigo",
+    "titulo": "Arquitetura da Informação em Ambientes Acadêmicos",
+    "descricao": "Estudo sobre organização, visibilidade e navegação de conteúdos científicos em plataformas digitais.",
+    "ano": "2025",
+    "area": "Arquitetura da Informação"
+  },
+  {
+    "tipo": "Dissertação",
+    "titulo": "Indicadores Analíticos na Visualização da Produção Científica",
+    "descricao": "Análise de métricas e formas de representar dados acadêmicos de modo acessível e estratégico.",
+    "ano": "2025",
+    "area": "Visualização de Dados"
+  },
+  {
+    "tipo": "Relatório",
+    "titulo": "Mapeamento Inicial da Produção Científica do Grupo",
+    "descricao": "Levantamento preliminar de pesquisas, projetos e contribuições acadêmicas vinculadas ao grupo.",
+    "ano": "2026",
+    "area": "Pesquisa Institucional"
+  },
+  {
+    "tipo": "Artigo",
+    "titulo": "Processamento de Linguagem Natural Aplicado a Documentos Arquivísticos",
+    "descricao": "Aplicação de técnicas de PLN para extração e organização de informações em acervos documentais.",
+    "ano": "2024",
+    "area": "IA e PLN"
+  },
+  {
+    "tipo": "Artigo",
+    "titulo": "Engenharia de Ontologias para Recuperação da Informação",
+    "descricao": "Construção de ontologias para melhorar a precisão na busca e recuperação de conteúdos científicos.",
+    "ano": "2025",
+    "area": "Ontologias"
+  },
+  {
+    "tipo": "Dissertação",
+    "titulo": "Modelos de Deep Learning na Classificação de Documentos",
+    "descricao": "Comparação de redes neurais para a categorização automática de produções acadêmicas.",
+    "ano": "2024",
+    "area": "IA e PLN"
+  },
+  {
+    "tipo": "Relatório",
+    "titulo": "Acessibilidade Digital em Portais Acadêmicos (WCAG 2.1)",
+    "descricao": "Avaliação de conformidade de portais universitários às diretrizes de acessibilidade nível AA.",
+    "ano": "2026",
+    "area": "Arquitetura da Informação"
+  },
+  {
+    "tipo": "Artigo",
+    "titulo": "Multimodalidade na Representação do Conhecimento Científico",
+    "descricao": "Estudo sobre o uso de texto, imagem e dados na comunicação da produção científica.",
+    "ano": "2025",
+    "area": "Arquivística Computacional"
+  },
+  {
+    "tipo": "Dissertação",
+    "titulo": "Curadoria Digital e Preservação de Acervos Científicos",
+    "descricao": "Estratégias de organização, descrição e preservação de longo prazo de acervos digitais.",
+    "ano": "2024",
+    "area": "Arquivística Computacional"
+  },
+  {
+    "tipo": "Relatório",
+    "titulo": "Avaliação de Usabilidade do Protótipo REGIIMENTOWEB",
+    "descricao": "Resultados dos testes de navegabilidade, desempenho e experiência do usuário no protótipo.",
+    "ano": "2026",
+    "area": "Visualização de Dados"
+  },
+  {
+    "tipo": "Artigo",
+    "titulo": "Dashboards Interativos para Indicadores de Pesquisa",
+    "descricao": "Proposta de painéis visuais para acompanhar a produção científica por ano e área temática.",
+    "ano": "2025",
+    "area": "Visualização de Dados"
+  },
+  {
+    "tipo": "Artigo",
+    "titulo": "Ciência Arquivística Computacional: Panorama e Desafios",
+    "descricao": "Revisão das principais linhas, métodos e desafios da Ciência Arquivística Computacional (CAS).",
+    "ano": "2026",
+    "area": "Arquivística Computacional"
+  }
+]

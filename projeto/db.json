@@ -1,0 +1,191 @@
+{
+  "projetos": [
+    {
+      "id": "1",
+      "titulo": "Catálogo Digital de Projetos Acadêmicos",
+      "area": "Tecnologia",
+      "autor": "Equipe de Desenvolvimento",
+      "resumo": "Plataforma para centralizar projetos, pesquisas e iniciativas acadêmicas com navegação simples e visual institucional.",
+      "descricao": "Este projeto propõe a criação de um ambiente digital para organização e divulgação de projetos acadêmicos. O objetivo é facilitar a consulta de informações, fortalecer a visibilidade das produções e melhorar a comunicação entre estudantes, docentes e comunidade.",
+      "status": "Em andamento"
+    },
+    {
+      "id": "2",
+      "titulo": "Painel de Produção Científica",
+      "area": "Pesquisa",
+      "autor": "Núcleo de Pesquisa",
+      "resumo": "Protótipo de painel informativo para reunir artigos, eventos, grupos de pesquisa e indicadores acadêmicos.",
+      "descricao": "A proposta apresenta um painel com informações relevantes sobre produção científica, linhas de pesquisa e indicadores institucionais. A ideia é transformar dados dispersos em uma consulta visual objetiva e acessível.",
+      "status": "Validação"
+    },
+    {
+      "id": "3",
+      "titulo": "Mapa de Iniciativas de Extensão",
+      "area": "Extensão",
+      "autor": "Grupo Interdisciplinar",
+      "resumo": "Sistema visual para apresentar ações de extensão, áreas envolvidas e impactos sociais gerados pela comunidade acadêmica.",
+      "descricao": "A proposta organiza ações extensionistas em um espaço único, permitindo a divulgação de atividades, objetivos, público-alvo e resultados esperados. O foco é tornar a extensão mais acessível e melhor comunicada.",
+      "status": "Planejamento"
+    },
+    {
+      "id": "4",
+      "titulo": "Portal de Eventos Universitários",
+      "area": "Educação",
+      "autor": "Equipe Acadêmica",
+      "resumo": "Ambiente para divulgação de palestras, seminários, oficinas e eventos universitários em um só lugar.",
+      "descricao": "O projeto busca centralizar a divulgação de eventos institucionais e acadêmicos, organizando informações como data, local, área temática e público-alvo.",
+      "status": "Em andamento"
+    },
+    {
+      "id": "5",
+      "titulo": "Sistema de Monitoramento de Projetos",
+      "area": "Inovação",
+      "autor": "Laboratório de Inovação",
+      "resumo": "Ferramenta para acompanhar etapas, status, responsáveis e progresso de projetos acadêmicos.",
+      "descricao": "Esta iniciativa visa estruturar o acompanhamento de projetos em desenvolvimento, permitindo melhor visualização de etapas, entregas e responsáveis por cada atividade.",
+      "status": "Recém-publicado"
+    },
+    {
+      "id": "6",
+      "titulo": "Biblioteca de Trabalhos Acadêmicos",
+      "area": "Pesquisa",
+      "autor": "Centro de Estudos",
+      "resumo": "Espaço digital para consulta, organização e divulgação de trabalhos acadêmicos e produções científicas.",
+      "descricao": "O sistema centraliza trabalhos acadêmicos, facilitando a busca por tema, autor e área de conhecimento, além de ampliar a visibilidade da produção universitária.",
+      "status": "Validação"
+    },
+    {
+      "id": "7",
+      "titulo": "Repositório de Publicações Científicas",
+      "area": "Pesquisa",
+      "autor": "Núcleo de Pesquisa",
+      "resumo": "Acesso aberto a artigos, dissertações e relatórios com busca textual e filtros por tipo e ano.",
+      "descricao": "Iniciativa para organizar e dar visibilidade às publicações do grupo, permitindo a consulta rápida por tipo de produção, ano e área temática, com foco em acesso aberto e transparência.",
+      "status": "Em andamento"
+    },
+    {
+      "id": "8",
+      "titulo": "Dashboard de Indicadores Acadêmicos",
+      "area": "Tecnologia",
+      "autor": "Equipe de Desenvolvimento",
+      "resumo": "Painéis interativos com a produção científica por categoria, área temática e atividades ao longo do ano.",
+      "descricao": "Projeto voltado à transformação de dados dispersos em dashboards visuais e interativos, apoiando a tomada de decisão e a comunicação dos resultados do grupo de pesquisa.",
+      "status": "Validação"
+    },
+    {
+      "id": "9",
+      "titulo": "Agenda Integrada de Eventos",
+      "area": "Educação",
+      "autor": "Equipe Acadêmica",
+      "resumo": "Centralização de workshops, seminários e reuniões do grupo, com distinção entre próximos e encerrados.",
+      "descricao": "O projeto reúne os eventos do grupo em uma agenda única, facilitando a divulgação de data, local e descrição, além de preservar o histórico de atividades já realizadas.",
+      "status": "Recém-publicado"
+    },
+    {
+      "id": "10",
+      "titulo": "Programa de Acessibilidade Digital",
+      "area": "Inovação",
+      "autor": "Grupo Interdisciplinar",
+      "resumo": "Adequação do portal às diretrizes WCAG 2.1 para garantir inclusão e navegação acessível.",
+      "descricao": "Iniciativa que revisa contraste, navegação por teclado, leitores de tela e responsividade, alinhando o portal às boas práticas de acessibilidade e usabilidade.",
+      "status": "Planejamento"
+    }
+  ],
+    "membros": [
+    {
+      "id": "0",
+      "nome": "Rômulo Ferreira dos Santos"
+    },
+    {
+      "id": "1",
+      "nome": "José Neto Novais",
+      "funcao": "Arquiteto de Software",
+      "descricao": "Responsável pela visão estrutural da solução e apoio à organização técnica do projeto."
+    },
+    {
+      "id": "2",
+      "nome": "Matheus Covre Lacerda",
+      "funcao": "Scrum Master",
+      "descricao": "Responsável pelo acompanhamento do fluxo de trabalho, backlog e organização da equipe."
+    },
+    {
+      "id": "3",
+      "nome": "Arthur Amaral Dos Santos",
+      "funcao": "Desenvolvimento Front-end",
+      "descricao": "Responsável pela interface, experiência visual e documentação do projeto."
+    },
+    {
+      "id": "4",
+      "nome": "Lucas Ferreira de Sousa",
+      "funcao": "AD / DBA",
+      "descricao": "Responsável pelo apoio em estrutura de dados, organização lógica e suporte à camada de dados."
+    }
+  ],
+  "pesquisas": [
+    {
+      "id": "1",
+      "titulo": "Painel de Produção Científica",
+      "area": "Pesquisa",
+      "status": "Em andamento",
+      "descricao": "Pesquisa voltada para organização de dados acadêmicos e indicadores institucionais."
+    },
+    {
+      "id": "2",
+      "titulo": "Catálogo Digital Acadêmico",
+      "area": "Tecnologia",
+      "status": "Desenvolvimento",
+      "descricao": "Plataforma para centralizar projetos, artigos, iniciativas e conteúdos acadêmicos."
+    },
+    {
+      "id": "3",
+      "titulo": "Monitoramento de Projetos",
+      "area": "Inovação",
+      "status": "Validação",
+      "descricao": "Sistema para acompanhar etapas, status, equipes e evolução das atividades acadêmicas."
+    }
+  ],
+  "forum": [
+    {
+      "id": "1",
+      "titulo": "Como publicar um novo projeto no portal?",
+      "categoria": "Dúvidas",
+      "descricao": "Discussão sobre o fluxo de cadastro e publicação de projetos no sistema."
+    },
+    {
+      "id": "2",
+      "titulo": "Quais áreas possuem mais pesquisas em andamento?",
+      "categoria": "Pesquisa",
+      "descricao": "Espaço para discutir as linhas de pesquisa com maior número de iniciativas."
+    },
+    {
+      "id": "3",
+      "titulo": "Sugestões de melhorias para o portal acadêmico",
+      "categoria": "Sugestões",
+      "descricao": "Canal para registrar ideias de melhoria visual, funcional e organizacional."
+    },
+    {
+      "id": "4",
+      "titulo": "Dúvidas sobre acesso como visitante",
+      "categoria": "Dúvidas",
+      "descricao": "Como navegar pelo portal e consultar publicações, eventos e dashboards sem criar conta."
+    },
+    {
+      "id": "5",
+      "titulo": "Integração com o Currículo Lattes",
+      "categoria": "Tecnologia",
+      "descricao": "Discussão sobre vincular os perfis Lattes aos membros e manter os links atualizados."
+    },
+    {
+      "id": "6",
+      "titulo": "Boas práticas de documentação de projetos",
+      "categoria": "Sugestões",
+      "descricao": "Padrões recomendados para descrever projetos, publicações e resultados de forma clara."
+    },
+    {
+      "id": "7",
+      "titulo": "Calendário de eventos do próximo semestre",
+      "categoria": "Eventos",
+      "descricao": "Espaço para sugerir datas, temas e formatos para os próximos eventos do grupo."
+    }
+  ]
+}

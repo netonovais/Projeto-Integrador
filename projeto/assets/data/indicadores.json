@@ -1,0 +1,27 @@
+{
+  "publicacoes": 12,
+  "eventos": 10,
+  "pesquisadores": 5,
+  "projetos": 10,
+  "categorias": {
+    "Artigo": 6,
+    "Dissertação": 3,
+    "Relatório": 3
+  },
+  "atividadesMensais": {
+    "Jan": 2,
+    "Fev": 4,
+    "Mar": 3,
+    "Abr": 6,
+    "Mai": 5,
+    "Jun": 8
+  },
+  "areasTematicas": {
+    "Arquitetura da Informação": 2,
+    "Visualização de Dados": 3,
+    "IA e PLN": 2,
+    "Ontologias": 1,
+    "Arquivística Computacional": 3,
+    "Pesquisa Institucional": 1
+  }
+}

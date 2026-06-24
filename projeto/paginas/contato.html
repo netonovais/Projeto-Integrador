@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato | Portal Acadêmico de Projetos</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-content">
+      <span>Portal institucional</span>
+      <div class="topbar-links">
+        <a href="home.html">Projetos</a>
+        <a href="publicar.html">Publicar</a>
+        <a href="../index.html">Página inicial</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-content">
+      <a href="../index.html" class="brand">
+        <div class="brand-wordmark">
+          <span class="brand-pre">Projeto Integrador</span>
+          <strong class="brand-main">REGIIMENTO</strong>
+        </div>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+
+            <nav class="nav" id="mainNav">
+        <a href="../index.html">Início</a>
+        <a href="home.html">Projetos</a>
+        <a href="publicacoes.html">Publicações</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="dashboards.html">Dashboards</a>
+        <a href="membros.html">Membros</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="contato.html" class="active">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <span class="eyebrow eyebrow-light">Comunicação</span>
+      <h1>Fale com a equipe</h1>
+      <p>
+        Utilize este espaço para enviar dúvidas, sugestões ou mensagens relacionadas ao portal acadêmico.
+      </p>
+    </div>
+  </section>
+
+  <main class="page-content">
+    <div class="container contact-grid">
+      <section class="contact-card">
+        <h2>Envie uma mensagem</h2>
+        <p class="helper-text">
+          Formulário demonstrativo para simular o atendimento institucional do portal.
+        </p>
+
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="contatoNome">Nome</label>
+            <input class="input" type="text" id="contatoNome" placeholder="Digite seu nome" />
+          </div>
+
+          <div class="form-group">
+            <label for="contatoEmail">E-mail</label>
+            <input class="input" type="email" id="contatoEmail" placeholder="Digite seu e-mail" />
+          </div>
+
+          <div class="form-group">
+            <label for="contatoMensagem">Mensagem</label>
+            <textarea class="textarea" id="contatoMensagem" placeholder="Escreva sua mensagem"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+        </form>
+      </section>
+
+      <aside class="contact-list">
+        <div class="contact-item">
+          <strong>Atendimento institucional</strong>
+          <span>contato@portalacademico.edu.br</span>
+        </div>
+
+        <div class="contact-item">
+          <strong>Suporte ao portal</strong>
+          <span>(61) 3333-0000</span>
+        </div>
+
+        <div class="contact-item">
+          <strong>Horário de funcionamento</strong>
+          <span>Segunda a sexta, das 8h às 18h</span>
+        </div>
+
+        <div class="contact-item">
+          <strong>Endereço</strong>
+          <span>Campus Universitário • Brasília - DF</span>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <script src="../script.js"></script>
+</body>
+</html>

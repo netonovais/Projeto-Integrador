@@ -1,0 +1,72 @@
+[
+  {
+    "titulo": "Reunião de Integração de Pesquisadores",
+    "data": "2026-07-10",
+    "local": "Sala 12 · CEUB",
+    "descricao": "Encontro para acolhimento de novos participantes e alinhamento das atividades do grupo.",
+    "status": "proximo"
+  },
+  {
+    "titulo": "Workshop de Pesquisa Digital",
+    "data": "2026-08-14",
+    "local": "Auditório CEUB",
+    "descricao": "Discussão sobre ferramentas, métodos e fluxos digitais voltados à pesquisa acadêmica.",
+    "status": "proximo"
+  },
+  {
+    "titulo": "Seminário de Arquitetura da Informação",
+    "data": "2026-09-05",
+    "local": "Online",
+    "descricao": "Apresentação de estudos sobre organização, acesso e experiência em ambientes digitais.",
+    "status": "proximo"
+  },
+  {
+    "titulo": "Teste de Usabilidade do Protótipo",
+    "data": "2026-06-10",
+    "local": "Online",
+    "descricao": "Validação da navegabilidade do protótipo com usuário convidado.",
+    "status": "encerrado"
+  },
+  {
+    "titulo": "Validação do MVP REGIIMENTOWEB",
+    "data": "2026-03-27",
+    "local": "CEUB",
+    "descricao": "Apresentação e aprovação formal do protótipo navegável com o stakeholder.",
+    "status": "encerrado"
+  },
+  {
+    "titulo": "Sprint Review 2",
+    "data": "2025-07-04",
+    "local": "Remoto",
+    "descricao": "Apresentação dos incrementos da Sprint 2 ao stakeholder e à equipe.",
+    "status": "encerrado"
+  },
+  {
+    "titulo": "Apresentação Final do Projeto Integrador",
+    "data": "2026-06-30",
+    "local": "CEUB · Auditório",
+    "descricao": "Defesa e apresentação final do protótipo REGIIMENTOWEB para a banca avaliadora.",
+    "status": "proximo"
+  },
+  {
+    "titulo": "Oficina de Visualização de Dados",
+    "data": "2026-10-02",
+    "local": "Laboratório de Informática · CEUB",
+    "descricao": "Prática de criação de dashboards e gráficos com Chart.js aplicados à produção científica.",
+    "status": "proximo"
+  },
+  {
+    "titulo": "Mesa-redonda sobre IA e PLN",
+    "data": "2026-11-18",
+    "local": "Online",
+    "descricao": "Debate sobre Processamento de Linguagem Natural e aplicações de Inteligência Artificial na pesquisa.",
+    "status": "proximo"
+  },
+  {
+    "titulo": "Sprint Planning 1",
+    "data": "2025-06-23",
+    "local": "Remoto",
+    "descricao": "Planejamento inicial das atividades e definição do backlog da primeira sprint.",
+    "status": "encerrado"
+  }
+]

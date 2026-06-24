@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    // Mostra a tela de login primeiro: se o acesso ainda não foi liberado
+    // (login feito ou entrada como visitante), redireciona para o login.
+    if (!sessionStorage.getItem("regiimento_acesso")) {
+      window.location.replace("paginas/login.html");
+    }
+  </script>
+  <title>Portal Acadêmico de Projetos</title>
+  <meta
+    name="description"
+    content="Portal acadêmico para centralização de projetos, pesquisas, iniciativas e publicações institucionais."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-content">
+      <span>Portal Institucional Acadêmico</span>
+      <div class="topbar-links">
+        <a href="paginas/contato.html">Transparência</a>
+        <a href="paginas/contato.html">Acesso à informação</a>
+        <a href="paginas/contato.html">Ouvidoria</a>
+        <a href="paginas/contato.html">Atendimento</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-content">
+      <a href="index.html" class="brand">
+        <div class="brand-wordmark">
+          <span class="brand-pre">Projeto Integrador</span>
+          <strong class="brand-main">REGIIMENTO</strong>
+        </div>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        ☰
+      </button>
+
+            <nav class="nav" id="mainNav">
+        <a href="index.html" class="active">Início</a>
+        <a href="paginas/home.html">Projetos</a>
+        <a href="paginas/publicacoes.html">Publicações</a>
+        <a href="paginas/eventos.html">Eventos</a>
+        <a href="paginas/dashboards.html">Dashboards</a>
+        <a href="paginas/membros.html">Membros</a>
+        <a href="paginas/sobre.html">Sobre nós</a>
+        <a href="paginas/contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="proto-banner">
+    <div class="container">
+      <span><strong>Protótipo acadêmico</strong> — projeto demonstrativo da disciplina Projeto Integrador (ADS · CEUB).</span>
+      <a href="https://github.com/netonovais/Projeto-Integrador" target="_blank" rel="noopener">Ver no GitHub</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <span class="eyebrow">Ambiente acadêmico digital</span>
+          <h1>Centralize projetos, pesquisas e iniciativas acadêmicas com um visual moderno e institucional.</h1>
+          <p>
+            Um protótipo pensado para reunir projetos, facilitar a divulgação da produção acadêmica,
+            destacar áreas de pesquisa e melhorar a navegação entre iniciativas universitárias.
+          </p>
+
+          <div class="hero-actions">
+            <a href="paginas/login.html" class="btn btn-primary">Entrar no portal</a>
+            <a href="paginas/home.html" class="btn btn-light">Explorar projetos</a>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <strong>+6</strong>
+              <span>Projetos cadastrados</span>
+            </article>
+            <article class="stat-card">
+              <strong>8 áreas</strong>
+              <span>Linhas de atuação</span>
+            </article>
+            <article class="stat-card">
+              <strong>Integração</strong>
+              <span>Ensino, pesquisa e extensão</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-panel">
+            <span class="panel-badge">Projeto em destaque</span>
+            <h2>Catálogo Digital de Produção Acadêmica</h2>
+            <p>
+              Plataforma voltada à organização de projetos e iniciativas universitárias, com foco em
+              divulgação, navegação simples e valorização da produção científica.
+            </p>
+
+            <div class="panel-tags">
+              <span class="tag">Tecnologia</span>
+              <span class="tag">Pesquisa</span>
+              <span class="tag">Extensão</span>
+            </div>
+
+            <ul class="panel-list">
+              <li>Catálogo institucional de projetos</li>
+              <li>Publicação simplificada</li>
+              <li>Consulta por área e equipe</li>
+              <li>Contato integrado com a equipe</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Funcionalidades</span>
+            <h2>O que o portal oferece</h2>
+          </div>
+          <p>
+            Estrutura visual clara para apresentação acadêmica, com foco em organização, usabilidade
+            e navegação entre projetos e equipes.
+          </p>
+        </div>
+
+        <div class="card-grid three">
+          <article class="feature-card">
+            <div class="feature-icon">CP</div>
+            <h3>Catálogo de projetos</h3>
+            <p>Visualização de projetos com resumo, área, equipe responsável e acesso a detalhes completos.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">PA</div>
+            <h3>Produção acadêmica</h3>
+            <p>Espaço para divulgar iniciativas de pesquisa, extensão, inovação e trabalhos interdisciplinares.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">CI</div>
+            <h3>Contato institucional</h3>
+            <p>Canal de comunicação para dúvidas, atendimento e aproximação entre usuários e equipe.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quick-access-section">
+      <div class="container">
+        <div class="section-head centered">
+          <div>
+            <span class="eyebrow">Acesso rápido</span>
+            <h2>Explore outras áreas do portal</h2>
+          </div>
+          <p>
+            Navegue por páginas complementares do sistema para conhecer melhor a proposta,
+            a equipe e as pesquisas em andamento.
+          </p>
+        </div>
+
+        <div class="quick-access-grid">
+          <a href="paginas/publicacoes.html" class="quick-card">
+            <div class="quick-icon">PB</div>
+            <div>
+              <h3>Publicações</h3>
+              <p>Repositório de artigos, dissertações e relatórios com busca e filtros.</p>
+            </div>
+          </a>
+
+          <a href="paginas/dashboards.html" class="quick-card">
+            <div class="quick-icon">DB</div>
+            <div>
+              <h3>Dashboards</h3>
+              <p>Indicadores interativos da produção científica por categoria e área.</p>
+            </div>
+          </a>
+
+          <a href="paginas/eventos.html" class="quick-card">
+            <div class="quick-icon">EV</div>
+            <div>
+              <h3>Eventos</h3>
+              <p>Agenda do grupo com próximos eventos e histórico de atividades.</p>
+            </div>
+          </a>
+
+          <a href="paginas/membros.html" class="quick-card">
+            <div class="quick-icon">MB</div>
+            <div>
+              <h3>Membros</h3>
+              <p>Conheça a equipe e acesse o Currículo Lattes de cada integrante.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Prévia do catálogo</span>
+            <h2>Últimos projetos em destaque</h2>
+          </div>
+          <a href="paginas/home.html" class="btn btn-outline-green">Ver todos os projetos</a>
+        </div>
+
+        <div class="projects-grid" id="featuredProjects"></div>
+      </div>
+    </section>
+
+    <section class="section about-section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <span class="eyebrow">Sobre nós</span>
+          <h2>Um ambiente acadêmico digital, público e transparente</h2>
+          <p>
+            O Portal Acadêmico de Projetos é uma iniciativa voltada para centralizar projetos,
+            pesquisas, ações de extensão e produções científicas em um único ambiente digital,
+            aproximando estudantes, docentes, pesquisadores e a comunidade.
+          </p>
+          <p>
+            Nossa proposta é dar visibilidade à produção acadêmica e facilitar o acesso à
+            informação, com navegação simples, organização clara e comunicação institucional
+            eficiente.
+          </p>
+          <a href="paginas/sobre.html" class="btn btn-primary">Conheça o projeto</a>
+        </div>
+
+        <div class="about-values">
+          <article class="value-card">
+            <h3>Missão</h3>
+            <p>Reunir e divulgar a produção acadêmica de forma acessível, valorizando o ensino, a pesquisa e a extensão.</p>
+          </article>
+          <article class="value-card">
+            <h3>Visão</h3>
+            <p>Ser referência na organização e comunicação digital de iniciativas acadêmicas da instituição.</p>
+          </article>
+          <article class="value-card">
+            <h3>Valores</h3>
+            <p>Transparência, acessibilidade, qualidade acadêmica e compromisso com a comunidade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container cta-box">
+        <div>
+          <span class="eyebrow eyebrow-light">Participe</span>
+          <h2>Publique projetos e valorize a produção acadêmica da sua equipe.</h2>
+          <p>
+            Demonstre a proposta do sistema com um fluxo de cadastro, publicação e navegação entre projetos.
+          </p>
+        </div>
+        <div class="cta-actions">
+          <a href="paginas/publicar.html" class="btn btn-primary">Publicar projeto</a>
+          <a href="paginas/cadastro.html" class="btn btn-light">Criar cadastro</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Portal Acadêmico de Projetos</h3>
+        <p>
+          Protótipo acadêmico para centralizar, divulgar e organizar projetos universitários
+          com uma apresentação moderna e institucional.
+        </p>
+      </div>
+
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="paginas/home.html">Projetos</a></li>
+          <li><a href="paginas/publicacoes.html">Publicações</a></li>
+          <li><a href="paginas/eventos.html">Eventos</a></li>
+          <li><a href="paginas/dashboards.html">Dashboards</a></li>
+          <li><a href="paginas/membros.html">Membros</a></li>
+          <li><a href="paginas/sobre.html">Sobre nós</a></li>
+          <li><a href="paginas/contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="paginas/pesquisas.html">Pesquisas</a></li>
+          <li><a href="paginas/forum.html">Fórum</a></li>
+          <li><a href="paginas/publicar.html">Publicar projeto</a></li>
+          <li><a href="paginas/login.html">Entrar</a></li>
+          <li><a href="https://github.com/netonovais/Projeto-Integrador" target="_blank" rel="noopener">Repositório no GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Brasília - DF • Projeto acadêmico demonstrativo • Portal institucional</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
