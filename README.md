@@ -1,8 +1,40 @@
-# 📂 Projeto R.E.G.I.I.M.E.N.T.O. - Plataforma Digital & Dashboards
+# 📂 Projeto R.E.G.I.I.M.E.N.T.O. — Plataforma Digital & Dashboards
 
-**Status do Projeto:** 🛠️ Em Desenvolvimento (Protótipo Acadêmico)  
-**Instituição Parceira:** Grupo de Pesquisa R.E.G.I.I.M.E.N.T.O. (UnB / INTERPARES TRUST AI)  
-**Disciplina:** Projeto Integrador I - ADS (CEUB)
+**Status do Projeto:** 🛠️ Em Desenvolvimento (Protótipo Acadêmico)
+**Instituição Parceira:** Grupo de Pesquisa R.E.G.I.I.M.E.N.T.O. (UnB / INTERPARES TRUST AI)
+**Disciplina:** Projeto Integrador I — ADS (CEUB)
+
+---
+
+## 🎬 Demonstração
+
+<div align="center">
+
+<video src="https://github.com/netonovais/Projeto-Integrador/raw/main/docs/demo.mp4" controls width="80%"></video>
+
+</div>
+
+> ▶️ **Não carregou o player acima?** [Clique aqui para assistir/baixar a demonstração](docs/demo.mp4)
+
+---
+
+## 🌐 Protótipo no Ar
+
+### 👉 [Acessar o protótipo](https://prototipo-projeto-regiimento.netlify.app/paginas/login.html)
+
+🔗 `https://prototipo-projeto-regiimento.netlify.app/paginas/login.html`
+
+---
+
+## 🔗 Acesso Rápido
+
+| Recurso | Link |
+|---|---|
+| 🌐 Protótipo (deploy) | [prototipo-projeto-regiimento.netlify.app](https://prototipo-projeto-regiimento.netlify.app/paginas/login.html) |
+| 🎬 Vídeo de demonstração | [docs/demo.mp4](docs/demo.mp4) |
+| 📘 Documentação Geral (com diagramas) | [docs/Documentacao P.I..docx](docs/Documentacao%20P.I..docx) |
+| 💻 Código-fonte do protótipo | [projeto/](projeto/) |
+| 📑 Demais documentos | [docs/](docs/) |
 
 ---
 
@@ -60,10 +92,11 @@ Desenvolver uma plataforma digital responsiva para o grupo **R.E.G.I.I.M.E.N.T.O
 ## 🚀 Funcionalidades do Protótipo
 
 - ✅ **Portal Institucional:** apresentação do histórico do grupo, linhas de pesquisa e corpo docente/discente;
-- ✅ **Repositório Dinâmico:** listagem de teses, dissertações, artigos e produções acadêmicas;
-- ✅ **Dashboards de Dados:** painéis interativos com dados e indicadores acadêmicos;
-- ✅ **Agenda de Eventos:** divulgação de workshops, colóquios e seminários;
+- ✅ **Repositório Dinâmico:** listagem de teses, dissertações, artigos e produções acadêmicas, com busca e filtros por tipo;
+- ✅ **Dashboards de Dados:** painéis interativos com dados e indicadores acadêmicos (Chart.js);
+- ✅ **Agenda de Eventos:** divulgação de workshops, colóquios e seminários (próximos e encerrados);
 - ✅ **Área para Interessados:** espaço voltado para estudantes e pesquisadores interessados no grupo;
+- ✅ **Acesso como Visitante:** navegação pública sem necessidade de criar conta;
 - ✅ **Interface Responsiva:** adaptação para desktop e dispositivos móveis.
 
 ---
@@ -102,7 +135,7 @@ Para este MVP, foram priorizadas ferramentas que equilibram simplicidade, desemp
 - **Lógica e Visualização:** JavaScript (ES6) + Chart.js
 - **Gestão de Dados:** JSON
 - **Versionamento:** Git e GitHub
-- **Deploy:** Vercel / GitHub Pages
+- **Deploy:** Netlify
 
 ---
 
@@ -140,6 +173,24 @@ Para este MVP, foram priorizadas ferramentas que equilibram simplicidade, desemp
 
 ---
 
+## 📄 Documentação
+
+Toda a documentação do projeto está na pasta [`docs/`](docs/):
+
+| Documento | Descrição |
+|---|---|
+| [📘 Documentação Geral](docs/Documentacao%20P.I..docx) | Documento completo do projeto (inclui os diagramas de Arquitetura, Casos de Uso, Classes e DER) |
+| [01 — Estratégia e Visão do Produto](docs/01_Estratégia_e_visão_do_produto.pdf) | Visão, canvas e estratégia |
+| [02 — Personas e Jornadas](docs/02_Personas_e_jornadas_usuarios.pdf) | Personas e jornadas do usuário |
+| [03 — Escopo e Requisitos](docs/03_Especificação_de_escopo_requisitos.pdf) | Especificação de escopo e requisitos |
+| [04 — Arquitetura e Dados](docs/04_Arquitetura_e_Dados/) | Arquitetura da solução e gestão de dados |
+| [05 — Governança e DevOps](docs/05_Manual_de_Governança_e_DevOPS/) | Governança, ata de validação e testes |
+| [06 — Backlog e Histórias de Usuário](docs/06_Backlog_e_Historias_de_Usuario/) | Backlog e histórias de usuário |
+| [🧪 Teste de Usabilidade](docs/Teste-de-Usabilidade.md) | Relatório do teste de usabilidade |
+| [🤖 Uso de IA](docs/Uso_De_IA.md) | Declaração de uso de ferramentas de IA |
+
+---
+
 ## 👥 Equipe
 
 | Integrante | Função | Atribuições |
@@ -164,39 +215,59 @@ O projeto será conduzido com base em conceitos de **Scrum** e **Design Thinking
 
 ---
 
+## ▶️ Como Executar Localmente
+
+> Importante: rode por um servidor local (e não abrindo o arquivo direto), para que os dados em JSON carreguem corretamente.
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/netonovais/Projeto-Integrador.git
+
+# 2. Entre na pasta do protótipo
+cd Projeto-Integrador/projeto
+
+# 3. Suba um servidor local (exemplo com Python)
+python3 -m http.server 8000
+
+# 4. Acesse no navegador
+# http://localhost:8000
+```
+
+---
+
 ## 📁 Estrutura do Projeto
 
 ```text
 Projeto-Integrador/
-├── projeto/
-├── index.html
-├── assets/
-│   ├── css/
-│   │   └── style.css
+├── projeto/                         # Código-fonte do protótipo (site)
+│   ├── index.html                   # Página inicial
+│   ├── style.css                    # Estilos (identidade visual)
+│   ├── script.js                    # Lógica geral (projetos, fórum, login)
+│   ├── db.json                      # Base de dados (projetos, membros, fórum)
 │   ├── js/
-│   │   └── dashboard.js
-│   ├── data/
-│   │   ├── indicadores.json
-│   │   ├── publicacoes.json
-│   │   ├── eventos.json
-│   │   └── equipe.json
-│   └── img/
-├── docs/
+│   │   ├── portal.js                # Dashboards, publicações e eventos
+│   │   ├── dashboard.js
+│   │   └── app.js
+│   ├── paginas/                     # Demais páginas do portal
+│   │   ├── home.html  sobre.html  membros.html  contato.html
+│   │   ├── publicacoes.html  eventos.html  dashboards.html
+│   │   ├── pesquisas.html  forum.html  cadastro.html  publicar.html  projeto.html
+│   │   └── login.html
+│   └── assets/
+│       └── data/                    # Dados em JSON
+│           ├── publicacoes.json  eventos.json
+│           ├── indicadores.json  equipe.json
+├── docs/                            # Documentação do projeto
+│   ├── Documentacao P.I..docx       # Documento geral (com diagramas)
+│   ├── demo.mp4                     # Vídeo de demonstração
+│   ├── 01_Estratégia_e_visão_do_produto.pdf
+│   ├── 02_Personas_e_jornadas_usuarios.pdf
+│   ├── 03_Especificação_de_escopo_requisitos.pdf
 │   ├── 04_Arquitetura_e_Dados/
-│   │   ├── 04_Arquitetura.pdf
-│   │   └── Gestao_de_dados.md
-│   ├── 05_Manual_de_Governança_e_D.../
-│   │   ├── 05_Documentação_Geral.pdf
-│   │   ├── Ata_de_Validacao.md
-│   │   └── Testes.md
-│   ├── 06_Backlog_e_Historias_de_Usua.../
-│   │   ├── 06_Backlog.pdf
-│   │   └── Historias-De-Usuario.md
+│   ├── 05_Manual_de_Governança_e_DevOPS/
+│   ├── 06_Backlog_e_Historias_de_Usuario/
 │   ├── sprint2/
-│   ├── 01_Estratégia_e_visão_do_produ...
-│   ├── 02_Personas_e_jornadas_usuario...
-│   ├── 03_Especificação_de_escopo_req...
-│   ├── Documentação_Geral.pdf
 │   ├── Teste-de-Usabilidade.md
 │   └── Uso_De_IA.md
 └── README.md
+```
