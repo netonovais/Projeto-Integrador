@@ -1,5 +1,7 @@
 
 
+
+
 # 📂 Projeto R.E.G.I.I.M.E.N.T.O. — Plataforma Digital & Dashboards
 
 **Status do Projeto:** 🛠️ Em Desenvolvimento (Protótipo Acadêmico)
@@ -8,18 +10,14 @@
 
 ---
 
-## 🎬 Demonstração
-
-
-
-
+## 🎬 Demo
 
 <div align="center">
 
+https://github.com/user-attachments/assets/e63ce518-653b-4117-91ff-50625a486d42
 
 </div>
 
-> ▶️ **Não carregou o player acima?** [Clique aqui para assistir/baixar a demonstração](docs/demo.mp4)
 
 ---
 
