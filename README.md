@@ -168,6 +168,7 @@ O projeto será conduzido com base em conceitos de **Scrum** e **Design Thinking
 
 ```text
 Projeto-Integrador/
+├── projeto/
 ├── index.html
 ├── assets/
 │   ├── css/
@@ -181,18 +182,21 @@ Projeto-Integrador/
 │   │   └── equipe.json
 │   └── img/
 ├── docs/
-│   ├── 02_Arquitetura.pdf
-│   ├── 03_Backlog.pdf
-│   ├── 04_Canvas.pdf
-│   ├── 05_Jornadas.pdf
-│   ├── 06_MVP.pdf
-│   ├── 07_Personas.pdf
-│   ├── 08_Portfólio.pdf
-│   ├── 09_Requisitos.pdf
-│   ├── 10_Visão e Plano.pdf
-│   ├── 11_Visão do Produto.pdf
-│   ├── Ata-De-Validacao.md
-│   ├── AzureDevOps.pdf
-│   ├── Historias-De-Usuario.md
-│   └── Testes.md
+│   ├── 04_Arquitetura_e_Dados/
+│   │   ├── 04_Arquitetura.pdf
+│   │   └── Gestao_de_dados.md
+│   ├── 05_Manual_de_Governança_e_D.../
+│   │   ├── 05_Documentação_Geral.pdf
+│   │   ├── Ata_de_Validacao.md
+│   │   └── Testes.md
+│   ├── 06_Backlog_e_Historias_de_Usua.../
+│   │   ├── 06_Backlog.pdf
+│   │   └── Historias-De-Usuario.md
+│   ├── sprint2/
+│   ├── 01_Estratégia_e_visão_do_produ...
+│   ├── 02_Personas_e_jornadas_usuario...
+│   ├── 03_Especificação_de_escopo_req...
+│   ├── Documentação_Geral.pdf
+│   ├── Teste-de-Usabilidade.md
+│   └── Uso_De_IA.md
 └── README.md
