@@ -1,3 +1,5 @@
+
+
 # 📂 Projeto R.E.G.I.I.M.E.N.T.O. — Plataforma Digital & Dashboards
 
 **Status do Projeto:** 🛠️ Em Desenvolvimento (Protótipo Acadêmico)
